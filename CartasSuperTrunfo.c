@@ -9,21 +9,25 @@
 int main() {
 
     char estado;
-    char codCarta[0];
+    char codCarta[3];
+    char nomeCidade[50];
     int populacao;
     float area;
     float pib;
     int nroPontTuritsitc;
 
-    printf("Preencha os daods da Carta 1\n");
+    printf("-----------------Desafio Supertrunfo--------------\n");
+    printf("Preencha os daodos da Carta 1\n");
+    
     printf("Digite a Letra do Estado - (A até H)\n");
-    scanf("%c", &estado);
+    scanf(" %c", &estado);
 
-    printf("estado: - ", estado);
-    
+    printf("Digite o código do Estado - (01 até 04)\n");
+    scanf("%s", codCarta);
 
-    
+    printf("estado: %c\n", estado);
+    printf("codCarta: %s\n", codCarta);
+
     return 0;
-
-    return 0;
+    
 }
