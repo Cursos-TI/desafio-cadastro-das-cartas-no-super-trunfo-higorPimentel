@@ -28,6 +28,8 @@ int main() {
     printf("estado: %c\n", estado);
     printf("codCarta: %s\n", codCarta);
 
+    printf('teste');
+
     return 0;
     
 }
