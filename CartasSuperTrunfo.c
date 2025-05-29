@@ -28,7 +28,7 @@ int main() {
     printf("estado: %c\n", estado);
     printf("codCarta: %s\n", codCarta);
 
-    printf('teste');
+    printf('teste 2');
 
     return 0;
     
