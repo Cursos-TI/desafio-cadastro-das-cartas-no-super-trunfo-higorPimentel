@@ -2,8 +2,9 @@
 #include <string.h>
 
 // Super Trunfo em c: Fundamentos e Técnicas Avançadas
-// NívelNovato, Aventureiro e Mestre
+// Desafio: nível novato
 // Dev.: Higor Pimentel
+// 31/05/2025
 
 int main() {
 
@@ -11,7 +12,7 @@ int main() {
     // Declaração de variaveis carta 1
     char estado;
     char cod_carta[3];
-    char nome_cidade[100];
+    char nome_cidade[200];
     signed long  populacao;
     float area;
     float pib;
@@ -21,7 +22,7 @@ int main() {
     // Declaração de variaveis carta 2
     char estado2;
     char cod_carta2[3];
-    char nome_cidade2[100];
+    char nome_cidade2[200];
     signed long populacao2;
     float area2;
     float pib2;
@@ -38,6 +39,8 @@ int main() {
 
     float densidade_populacional2;
     float pib_per_capita2;
+
+    char resultado[200];
 
 
     printf("\n");
@@ -128,11 +131,8 @@ int main() {
 
 
 
-    // COMPARACAO DAS CARTAS
-
-
+    /*
     // exibe os dados da carta 1
-
     printf("\n\n");
     printf("Carta 1:\n");
     printf("Estado: %c\n", estado);
@@ -161,8 +161,27 @@ int main() {
     printf("Densidade Populacional: %.2f hab/km²\n", densidade_populacional2);
     printf("PIB per Capita: %.2f reais\n", pib_per_capita2);
     printf("Super Poder: %.2f\n", super_poder2);
+    */
 
- 
+
+   // Comparação de cartas (Atributo: População):
+
+    // Verifica qual população é maior
+    if(populacao > populacao2) {
+        sprintf(resultado,"Resultado: Carta 1 %s venceu!",nome_cidade);
+    } else {
+        sprintf(resultado,"Resultado: Carta 2 %s venceu!",nome_cidade2);
+    }
+
+
+
+
+    printf("\n\n");
+    printf("Comparação de cartas (Atributo: População):\n");
+    printf("Carta 1 - : %s: %ld\n", nome_cidade,populacao);
+    printf("Carta 2 - : %s: %ld\n", nome_cidade2,populacao2);
+    printf("%s", resultado);
+    
 
     return 0;
     
