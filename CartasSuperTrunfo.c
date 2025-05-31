@@ -2,7 +2,7 @@
 #include <string.h>
 
 // Super Trunfo em c: Desenvolvendo a Lógica do Jogo
-// Desafio: nível aventureiro
+// Desafio: nível mestre
 // Dev.: Higor Pimentel
 // 31/05/2025
 
