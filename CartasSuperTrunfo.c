@@ -136,7 +136,7 @@ int main() {
 
 
 
-    /*
+    
     // exibe os dados da carta 1
     printf("\n\n");
     printf("Carta 1:\n");
@@ -166,7 +166,7 @@ int main() {
     printf("Densidade Populacional: %.2f hab/km²\n", densidade_populacional2);
     printf("PIB per Capita: %.2f reais\n", pib_per_capita2);
     printf("Super Poder: %.2f\n", super_poder2);
-    */
+
 
 
 
@@ -267,8 +267,6 @@ int main() {
         printf("Opção Selecionada inválida:\n");
         return 0;
     }
-
-
 
 
     printf("\n\n");
