@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-// Super Trunfo em c: Fundamentos e Técnicas Avançadas
+// Super Trunfo em c: Desenvolvendo a Lógica do Jogo
 // Desafio: nível novato
 // Dev.: Higor Pimentel
 // 31/05/2025
